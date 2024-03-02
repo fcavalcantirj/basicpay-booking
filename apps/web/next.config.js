@@ -169,7 +169,7 @@ const nextConfig = {
   },
   /* We already do linting on GH actions */
   eslint: {
-    ignoreDuringBuilds: !!process.env.CI,
+    ignoreDuringBuilds: true,
   },
   experimental: { esmExternals: true },
   transpilePackages: [
